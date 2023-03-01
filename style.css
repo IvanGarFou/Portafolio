@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+body{
+    background-image: url('https://i.postimg.cc/FKMVMSPv/Capacitacion-en-Java.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+
+.main{
+    padding: 5%;
+    padding-right: 40%;
+    margin-top: 10%;
+}
+
+.navegador{
+    padding-right: 20%;
+    margin: 3% 3% 3% 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegador a{
+    color: white;
+    text-decoration: none;
+}
+
+.main img{
+    width: 35px;
+    margin: 1%;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h1::first-line{
+    color: chartreuse;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar a{
+    color: white;
+    margin: 1%;
+    text-decoration: none;
+}
+
+.eventos{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.891);
+}
+
+
+a:hover{
+    color: chartreuse;
+    text-decoration: wavy;
+}
+
+.eventos-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.eventos-img img{
+    height: 100%;
+}
+
+.card{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card-img-overlay{
+    opacity: 0;
+    -webkit-transition: 450ms opacity;
+    transition: 450ms opacity;
+    color: white;
+    background-color: #00000085;
+}
+
+.card-img-overlay:hover{
+    opacity: 1;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.podcast{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -2%;
+}
+
+.sobre{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.891);
+    font-size: 16px;
+    font-weight: 100;
+
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descripcion img{
+    width: 25%;
+    margin-right: 5%;
+}
