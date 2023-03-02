@@ -1,0 +1,89 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+    margin: 1%;
+    text-decoration: none;
+}
+
+a:hover{
+    color: chartreuse;
+    text-decoration: wavy;
+}
+
+.menu{
+    background-image: url('https://i.postimg.cc/VLLqFTs0/Fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.main{
+    padding: 5%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h1::first-line{
+    color: chartreuse;
+}
+
+
+.eventos{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 2%;
+}
+
+
+a:hover{
+    color: chartreuse;
+    text-decoration: wavy;
+}
+
+.eventos-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.eventos-img img{
+    height: 100%;
+}
+
+.card{
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+
+}
+
+.card-img-overlay{
+    opacity: 0;
+    -webkit-transition: 450ms opacity;
+    transition: 450ms opacity;
+    color: white;
+    background-color: #00000085;
+}
+
+.card-img-overlay:hover{
+    opacity: 1;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
